@@ -64,12 +64,16 @@ print(minha_funcao("Mundo"))
 
 Este código define uma função `saudacao` que aceita um parâmetro `nome` e retorna uma string de saudação. Em seguida, chama a função com o argumento "Mundo".
 
+---
+
 2. **Parâmetros**: As funções podem receber parâmetros, que são valores que você pode passar para a função. Os parâmetros são definidos entre os parênteses na definição da função. Por exemplo:
 
 ```python
 def minha_funcao(nome):
     print("Olá, " + nome)
 ```
+
+---
 
 Agora, quando chamamos `minha_funcao("Mundo")`, ela imprimirá "Olá, Mundo".
 
@@ -82,9 +86,24 @@ def soma(a, b):
 
 Agora, quando chamamos `soma(5, 3)`, a função retornará `8`.
 
+---
+
+4. **Multiplos valores de retorno**: As funções podem retornar vários valores separando-os com vírgulas. Por exemplo:
+
+   ```python
+   def antecessor_sucessor(x):
+       return x-1, x+1
+
+   antecessor, sucessor = antecessor_sucessor(5)
+   print("Antecessor:", antecessor)
+   print("Sucessor:", sucessor)
+   ```
+
+   Neste exemplo, a função `antecessor_sucessor` retorna dois valores: o antecessor e o sucessor do número fornecido. Quando chamamos a função com o número 5, atribuímos os valores de retorno às variáveis `antecessor` e `sucessor`, respectivamente. Em seguida, imprimimos esses valores, resultando em "Antecessor: 4" e "Sucessor: 6".
+
 ## Aprofundando
 
-4. **Valores Padrão**: Você pode definir valores padrão para os parâmetros de uma função. Se um argumento para esse parâmetro não for fornecido ao chamar a função, o valor padrão será usado. Por exemplo:
+**Valores Padrão**: Você pode definir valores padrão para os parâmetros de uma função. Se um argumento para esse parâmetro não for fornecido ao chamar a função, o valor padrão será usado. Por exemplo:
 
 ```python
 def minha_funcao(nome="Mundo"):
