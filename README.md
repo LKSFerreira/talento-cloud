@@ -1,12 +1,15 @@
 # Talento Cloud
+
 Capacitação Gratuita em Introdução à Prog﻿ramação e Nuvem AWS.
 
 ## Nossa Formação
+
 Aqui você não precisa programar, vamos começar com conceitos básicos, e te levaremos até que possa desenvolver seus próprios projetos. Partiremos do zero.
 
 Nossa formação será dividida em 2 trilhas:
-  - 1ª Introdução à programação com foco em Front-End;
-  - 2ª Cloud Practitioner.
+
+- 1ª Introdução à programação com foco em Front-End;
+- 2ª Cloud Practitioner.
 
 ![](https://d335luupugsy2.cloudfront.net/cms/files/467972/1683205505/$nz1vddm0hrn)
 
